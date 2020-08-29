@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/stylesheet.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lecturas</h1>
+      <hr />
+      <div class="d-flex flex-nowrap margenSuperior">
+        <a class="btn botonBread" href="index.html">Pagina Inicial</a>
+        <a class="btn botonBread" href="#">Apoyo Docente</a>
+        <a class="btn botonBread" href="#">Foro</a>
+      </div>
+      <div>
+        <div class="card-book">
+          <a
+            onclick="javascript:llamaLibro('https://cdn.flipsnack.com/widget/v2/widget.html?hash=du5w53jd1j')"
+          >
+            <div class="container-card-book">
+              <h4><b>El Magacin Radiofonico</b></h4>
+              <hr />
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="card-book">
+          <a
+            onclick="javascript:llamaLibro('https://cdn.flipsnack.com/widget/v2/widget.html?hash=xcjs1xdqwd')"
+          >
+            <div class="container-card-book">
+              <h4><b>Anotaciones Teóricas</b></h4>
+              <hr />
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="card-book">
+            <a
+              onclick="javascript:llamaLibro('https://cdn.flipsnack.com/widget/v2/widget.html?hash=xcjs1xdqwd')"
+            >
+              <div class="container-card-book">
+                <h4><b>Anotaciones Teóricas</b></h4>
+                <hr />
+                <p>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="card-book">
+            <a
+              onclick="javascript:llamaLibro('https://cdn.flipsnack.com/widget/v2/widget.html?hash=xcjs1xdqwd')"
+            >
+              <div class="container-card-book">
+                <h4><b>Anotaciones Teóricas</b></h4>
+                <hr />
+                <p>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                </p>
+              </div>
+            </a>
+          </div>
+      </div>
+      <!-- <a
+        class="btn-large btn-info btn"
+        style="margin-left: 1em"
+        onclick="javascript:llamaLibro('https://cdn.flipsnack.com/widget/v2/widget.html?hash=du5w53jd1j')"
+        >Ir a El Magacin Radiofonico</a
+      >
+      <a
+        class="btn-large btn-info btn"
+        onclick="javascript:llamaLibro('https://cdn.flipsnack.com/widget/v2/widget.html?hash=xcjs1xdqwd')"
+        >Ir a Anotaciones Teóricas</a
+      > -->
+      <div id="e-book" style="margin-top: 2em"></div>
+      <script type="text/javascript" src="src/showEbook.js"></script>
+    </div>
+  </body>
+</html>
