@@ -7,8 +7,16 @@ h1 {
   font-size: 2vw;
   font-weight: bold;
 }
+h2 {
+  margin: 0px;
+}
 p {
   font-size: 14px;
+}
+
+.irAlModulo {
+  float: right;
+  font-size: smaller;
 }
 
 .margenSuperior {
@@ -90,7 +98,6 @@ p {
   margin-right: 1em;
   width: 20em;
   height: 20em;
-  display: flex;
   float: left;
 }
 
@@ -120,6 +127,20 @@ p {
   display: inline-block;
   justify-content: center;
   align-items: center;
+}
+
+/* estilos de la la leccion generica */
+#header {
+  position: fixed;
+  top: 0px;
+  height: 100px;
+  background-color: white;
+}
+#bodyContainer {
+  margin-top: 110px;
+  height: 3000px;
+  overflow: auto;
+ 
 }
 
 /* boton 1 */
@@ -226,7 +247,6 @@ a.button3:hover {
 a.button3:active {
   background-color: #999999;
 }
-
 
 @media all and (max-width: 30em) {
   a.button1 {
